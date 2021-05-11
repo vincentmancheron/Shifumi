@@ -1,0 +1,77 @@
+/* Généralités */
+body {
+    height: 100vh;
+    background-image: url(../img/backgroundOrange.jpg);
+    background-size: cover;
+}
+
+header,
+main {
+    height: 96vh;
+}
+
+/* Fin Généralités */
+
+/* Ecran d'accueil */
+#go img {
+    width: 30%;
+}
+
+/* Fin Ecran d'accueil */
+
+/* Jeu */
+ul {
+    list-style:none;
+}
+
+#brand {
+    width: 40%;
+}
+
+#brand img {
+    width: 30%;
+}
+
+#ordi img,
+#game2 img {
+    width: 75%;
+}
+
+#ordi img {
+    border-radius: 1em;
+}
+
+#game2 img {
+    border-radius: 10em;
+}
+/* Fin Jeu */
+
+/* Résultats */
+#stats {
+    width: 90%;
+    background-color: pink;
+    border: solid 2px purple;
+    border-radius: 1em;
+}
+
+#stats p {
+    margin: 0;
+}
+
+#stats2>div {
+    width: 25%;
+}
+
+#stats>div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result1,
+#nbGames,
+#winsLooses,
+#streaks {
+    border-right: solid 1px purple;
+}
+/* Fin Résultats */
